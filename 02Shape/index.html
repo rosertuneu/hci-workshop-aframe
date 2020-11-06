@@ -9,13 +9,22 @@
   </head>
   <body>
     <a-scene background="color: #333333">
+      <a-sky color="#6CCAFF"></a-sky>
       <a-box id="myBox"
+        position="0 1 -5"
         width="3"
         height="2"
         depth="1"
-        color="#BBAA33" 
+        color="#BB33AA"
+        rotation="32 7 2"
         shadow>
       </a-box>
+      <a-plane position="0 -5 0" rotation="-90 0 0" width="400" height="400" color="#22EEAA" shadow></a-plane>
+      <a-dodecahedron color="#FF926B" radius="5"
+      position="10 1 -15" shadow></a-dodecahedron>
+      <a-ring color="#0A48CD" radius-inner="20" radius-outer="22" position="0 -5 -20" shadow></a-ring>
+
+
     </a-scene>
   </body>
 </html>
